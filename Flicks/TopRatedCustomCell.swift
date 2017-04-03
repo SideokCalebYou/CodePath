@@ -10,6 +10,10 @@ import UIKit
 
 class TopRatedCustomCell: UITableViewCell {
 
+    @IBOutlet weak var cellImageView: UIImageView!
+    @IBOutlet weak var myMovieTitleLabel: UILabel!
+    @IBOutlet weak var movieSummaryLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
